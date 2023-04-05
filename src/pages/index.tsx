@@ -7,11 +7,15 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <>
+    <div className="">
       <Header />
-      <section className="bg-main-color conta h-full w-full flex justify-center">
-        <div className="w-[1000px] h-[320px] flex justify-center border-solid border-2 "></div>
+      <section className=" bg-main-color h-screen w-screen   h-full w-full flex justify-center">
+        <div className="w-[300px] h-[320px] max-w-md    mx-[20px] mb-[20px]	bg-white"></div>
+        <div className="flex flex-col">
+          <div className="w-[880px] h-[150px] mb-[20px] border-solid border-2"></div>
+          <div className="w-[880px] h-[150px]  border-solid border-2"></div>
+        </div>
       </section>
-    </>
+    </div>
   );
 }
