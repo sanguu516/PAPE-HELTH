@@ -1,10 +1,10 @@
 export default function Header() {
   return (
-    <div className="bg-main-color w-full">
-      <div className=" h-[80px] flex ml-[360px] ">
+    <div className="bg-main-color  text-center	w-full h-full">
+      <div className=" h-[80px] flex lg:ml-[360px] inline-block">
         <div className="w-[1200px] flex justify-between">
           <a
-            className="text-5xl mt-[10px] font-bold text-header-color"
+            className="md:text-5xl min-[320px]:text-4xl  mt-[10px] font-bold text-header-color"
             href="#"
           >
             PAPE HELTH

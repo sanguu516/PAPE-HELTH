@@ -9,11 +9,11 @@ export default function Home() {
   return (
     <div className="">
       <Header />
-      <section className=" bg-main-color h-screen w-screen   h-full w-full flex justify-center">
-        <div className="w-[300px] h-[320px] max-w-md    mx-[20px] mb-[20px]	bg-white"></div>
-        <div className="flex flex-col">
-          <div className="w-[880px] h-[150px] mb-[20px] border-solid border-2"></div>
-          <div className="w-[880px] h-[150px]  border-solid border-2"></div>
+      <section className=" bg-main-color w-full h-full flex justify-center">
+        <div className="w-[300px] h-[320px] mx-[20px] mb-[20px]	bg-white drop-shadow-xl"></div>
+        <div className="flex flex-col w-[880px] h-[320px]">
+          <div className="w-full h-full mb-[20px] border-solid border-2"></div>
+          <div className="w-full h-full  border-solid border-2"></div>
         </div>
       </section>
     </div>
